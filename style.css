@@ -1,0 +1,98 @@
+header{
+    background-color: rgb(218, 180, 134);
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(https://kazpravda.kz/media/news/2023/02/27/662622619634868af4e7472.88846266.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    padding-top:50px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: azure;
+    font-style: oblique;
+    text-shadow: black 2px 5px 5px;
+}
+main{
+    background:linear-gradient( rgb(62, 73, 139),rgb(162, 186, 238)) ;
+    height:100%;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    display: flex;
+}
+footer{
+    background:rgb(28, 23, 97);
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:start;
+    display:flex;
+}
+.left{
+    background-color:rgb(214, 176, 127);
+    width:50%;
+    height:100%;
+    font-family: cursive;
+    color: black;
+    float: left;
+    margin:50px;
+    padding:50px;
+}
+.right{
+    background-color: rgb(77, 138, 80);
+    width:50%;
+    height: 100%;
+    font-family: cursive;
+    color: black;
+    float: right;
+    margin:50px;
+    padding:50px;
+}
+h3{
+    font-size:60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align:center;
+}
+h4{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align:center;
+}
+.f_left{
+    float:left;
+    width:30%;
+    text-align: center;
+}
+.f_right{
+    float:right;
+    width:70%;
+    padding-left:20px;
+}
+.f_left img{
+    padding-top: 20px;
+}
+.f_right img{
+    width:100px;
+    margin: 20px;
+}
+.f_right ul{
+    list-style: none;
+    display:flex;
+    align-items:baseline;
+}
